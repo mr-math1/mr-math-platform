@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101d35">
+<title>MR. MATH | منصة الرياضيات</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">∑</span><span><b>MR. MATH</b><small>منصة الأستاذ عبد السلام البيومي</small></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة">☰</button>
+  <nav id="nav"><a href="#home">الرئيسية</a><a href="#classes">الصفوف</a><a href="#games">الألعاب</a><a href="#about">عن المنصة</a></nav>
+  <button class="outline-btn" id="startTop">ابدأ التعلم</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <span class="eyebrow">تعلم • تدرب • نافس</span>
+    <h1>الرياضيات…<br><em>بأسلوب أذكى</em></h1>
+    <p>منصة تعليمية تفاعلية تجمع الشرح والتدريب والاختبارات والألعاب الرياضية في مكان واحد.</p>
+    <div class="hero-actions"><a class="primary-btn" href="#classes">استكشف الصفوف <span>←</span></a><a class="text-btn" href="#games">اكتشف التحديات</a></div>
+    <div class="hero-stats"><div><b>3</b><small>صفوف دراسية</small></div><div><b>∞</b><small>فرص للتعلم</small></div><div><b>24/7</b><small>تعلم في أي وقت</small></div></div>
+  </div>
+  <div class="hero-art" aria-label="رموز رياضية"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="math-card"><span>f(x) = x² − 4x + 3</span><strong>∑ ∫ π √</strong><small>THINK • SOLVE • EXCEL</small></div><i class="symbol s1">π</i><i class="symbol s2">√</i><i class="symbol s3">∞</i><i class="symbol s4">÷</i></div>
+</section>
+
+<section class="section" id="classes">
+  <div class="section-head"><div><span class="eyebrow">ابدأ من هنا</span><h2>اختر صفك الدراسي</h2><p>محتوى منظم يساعدك على الفهم والتدريب والاستعداد للاختبارات.</p></div><span class="section-number">01 / LEARN</span></div>
+  <div class="class-grid">
+    <article class="class-card" data-grade="العاشر"><div class="class-icon">10</div><span class="tag">المرحلة الثانوية</span><h3>الصف العاشر</h3><p>تدريبات ومراجعات ومهارات رياضية أساسية.</p><button class="card-link">دخول الصف <b>←</b></button></article>
+    <article class="class-card featured" data-grade="الحادي عشر"><div class="class-icon">11</div><span class="tag">المرحلة الثانوية</span><h3>الصف الحادي عشر العلمي</h3><p>الجذور والأسس والمتباينات والدوال والمتجهات.</p><button class="card-link">دخول الصف <b>←</b></button></article>
+    <article class="class-card" data-grade="الثاني عشر"><div class="class-icon">12</div><span class="tag">المرحلة الثانوية</span><h3>الصف الثاني عشر العلمي</h3><p>النهايات والاتصال والاشتقاق وتطبيقاته.</p><button class="card-link">دخول الصف <b>←</b></button></article>
+  </div>
+</section>
+
+<section class="practice section" id="practice">
+  <div class="section-head"><div><span class="eyebrow">اختبر فهمك</span><h2 id="quizTitle">تدريب سريع</h2><p id="quizSubtitle">اختر الإجابة الصحيحة، واحصل على تصحيح فوري.</p></div><span class="section-number">02 / PRACTICE</span></div>
+  <div class="quiz-layout">
+    <div class="quiz-panel">
+      <div class="quiz-top"><span class="question-count" id="qCount">السؤال 1 من 5</span><span class="points">⭐ <b id="score">0</b> نقطة</span></div>
+      <div class="progress"><span id="progressBar"></span></div>
+      <h3 id="question">إذا كانت f(x) = x² − 5x + 6، فما جذرا المعادلة؟</h3>
+      <div class="answers" id="answers"></div>
+      <div class="feedback" id="feedback" aria-live="polite"></div>
+      <div class="quiz-actions"><button class="primary-btn" id="checkBtn">تحقق من الإجابة</button><button class="outline-btn" id="nextBtn" disabled>السؤال التالي ←</button></div>
+    </div>
+    <aside class="tip-panel"><span class="tip-icon">✦</span><h3>فكر قبل أن تختار</h3><p>اقرأ السؤال جيدًا، وحدد المطلوب، ثم جرّب الحل بنفسك. التعلم الحقيقي يبدأ بالمحاولة.</p><div class="tip-equation">a² − b² = (a−b)(a+b)</div></aside>
+  </div>
+</section>
+
+<section class="section games" id="games">
+  <div class="section-head"><div><span class="eyebrow">التعلم باللعب</span><h2>منطقة التحديات</h2><p>حوّل التدريب إلى تجربة ممتعة وتنافسية.</p></div><span class="section-number">03 / PLAY</span></div>
+  <div class="game-grid">
+    <article class="game-card"><div class="game-emoji">⚡</div><div><span class="tag">سرعة وتركيز</span><h3>تحدي الدقيقة</h3><p>أجب عن أكبر عدد من الأسئلة خلال 60 ثانية.</p><button class="game-btn" data-game="timer">ابدأ التحدي ←</button></div></article>
+    <article class="game-card"><div class="game-emoji">🧠</div><div><span class="tag">تفكير منطقي</span><h3>لغز رياضي</h3><p>اختبر ذكاءك في ألغاز ومسائل تحتاج إلى تفكير.</p><button class="game-btn" data-game="riddle">افتح اللغز ←</button></div></article>
+    <article class="game-card"><div class="game-emoji">🏆</div><div><span class="tag">منافسة</span><h3>كأس المتفوقين</h3><p>سجل نقاطك ونافس زملاءك على الصدارة.</p><button class="game-btn" data-game="cup">عرض لوحة النتائج ←</button></div></article>
+  </div>
+</section>
+
+<section class="callout" id="about"><div><span class="eyebrow">رسالتنا</span><h2>كل مسألة فرصة<br>لاكتشاف قدرتك.</h2><p>إعداد وتطوير: الأستاذ عبد السلام بلال البيومي</p></div><div class="callout-mark">∫<br>π</div></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">∑</span><span><b>MR. MATH</b><small>منصة الرياضيات التفاعلية</small></span></a><p>© <span id="year"></span> MR. MATH — جميع الحقوق محفوظة</p></footer>
+
+<div class="modal-backdrop" id="modal" hidden><div class="modal" role="dialog" aria-modal="true"><button class="modal-close" id="closeModal">×</button><div id="modalContent"></div></div></div>
+<script src="app.js"></script>
+</body></html>
